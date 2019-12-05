@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:text="Rollno"/>
     <EditText
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:text="Admission no"/>
     <EditText
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -30,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="College"/>
     <EditText
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
