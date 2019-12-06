@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:text="Name"/>
     <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Rollno"/>
     <EditText
+        android:id="@+id/rollno"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -24,6 +26,7 @@
         android:layout_height="wrap_content"
         android:text="Admission no"/>
     <EditText
+        android:id="@+id/admissionno"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -32,10 +35,12 @@
         android:layout_height="wrap_content"
         android:text="College"/>
     <EditText
+        android:id="@+id/college"
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"/>
